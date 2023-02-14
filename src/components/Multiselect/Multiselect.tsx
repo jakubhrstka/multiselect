@@ -34,8 +34,10 @@ function Multiselect() {
 
   const handleInputConfirmation = (e: React.KeyboardEvent) => {
     if (e.code === "Enter" || e.code === "Tab") {
-      addNewItem(newItem);
-      setNewItem("");
+      if (newItem.length > 0) {
+        addNewItem(newItem);
+        setNewItem("");
+      }
     }
   };
 
