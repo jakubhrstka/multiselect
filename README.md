@@ -9,3 +9,5 @@
 - Delete items
   - If you delete item from select, it will return back to select box
 - Multiline support
+
+Component is live at [Github Pages](https://jakubhrstka.github.io/multiselect/)
